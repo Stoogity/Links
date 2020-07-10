@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol>
+    <!-- Link back to main page and this is a relative URL -->
+    <li><a href="index.html">This is the link back to the main page</a></li>
+    <!-- Opens link in new tab -->
+    <li><a href="https://stoogity.github.io/WebDevHomework1/" target="_blank">I know this is bad practice (according to the book anyway). It feels like a feature I would like as a user though.</a></li>
+    <!-- Opens in same window/tab -->
+    <li><a href="https://stoogity.github.io/WebDevHomework1/" target="_self">Opens on self</a></li>
+    <!-- This link opens and overrides the page that the user is on -->
+    <li><a href="https://stoogity.github.io/WebDevHomework1/" target="_parent">What is this?</a></li>
+    <li><a href="https://stoogity.github.io/WebDevHomework1/" target="_top">This is top? I actually don't know what the difference is between this and parent</a></li>
+    <li><a href="mailto:someone@example.com">Send an email with this link</a></li>
+    <!-- Image as a link -->
+    I made an image into a link!
+    <li><a href="https://stoogity.github.io/WebDevHomework1/" target="_self"> 
+    <img src="../HTML_proj/WebDev_photos/IndianCreek1.jpg">
+    </a></li>
+    <!-- Testing button as a link -->
+    <li><button onclick="document.location='index.html'">Takes you back to main page</button></li>
+    <li><button onclick="document.location='https://www.youtube.com/watch?v=C5oeWHngDS4'">Definitely not a rick roll</button></li>
+    </ol>
+</body>
+</html>
